@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  elastalert:
+    build: .
+    volumes:
+      - "./config.yaml:/opt/elastalert/config.yaml"
+      - "./rules:/opt/elastalert/rules"
