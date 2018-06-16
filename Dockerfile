@@ -5,7 +5,7 @@ RUN apk update && \
     apk --no-cache add ca-certificates openssl python2 py2-pip py2-yaml tzdata
 
 # Install ElastAlert
-ARG VERSION=v0.1.30
+ARG VERSION=v0.1.32
 RUN apk --no-cache add --virtual build-dependencies python2-dev musl-dev gcc openssl-dev libffi-dev curl && \
     # download the archive from official git repository
     mkdir -p /opt && cd /opt && \
