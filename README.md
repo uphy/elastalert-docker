@@ -8,5 +8,5 @@ Unofficial ElastAlert docker image.
 docker run -it --rm \
      -v "$(pwd)/config.yaml:/opt/elastalert/config.yaml" \
      -v "$(pwd)/rules:/opt/elastalert/rules" \
-     uphy/elastalert:0.1.32
+     uphy/elastalert:0.1.33
 ```
